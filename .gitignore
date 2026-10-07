@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
+*.spec
+schemas/gschemas.compiled
+# Local reports contain personal absolute paths; publish README and docs instead.
+HISOBOT.html
+GEMINI_MASLAHAT.md
+*.log

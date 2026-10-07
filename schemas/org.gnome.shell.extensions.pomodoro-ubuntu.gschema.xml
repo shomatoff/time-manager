@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.pomodoro-ubuntu" path="/org/gnome/shell/extensions/pomodoro-ubuntu/">
+    <key name="focus-minutes" type="i">
+      <default>25</default>
+      <summary>O‘qish vaqti, daqiqada</summary>
+    </key>
+    <key name="break-minutes" type="i">
+      <default>5</default>
+      <summary>Tanaffus vaqti, daqiqada</summary>
+    </key>
+    <key name="long-break-minutes" type="i">
+      <default>15</default>
+      <summary>Uzun tanaffus davomiyligi, daqiqada</summary>
+    </key>
+    <key name="cycles-before-long" type="i">
+      <default>0</default>
+      <summary>Uzun tanaffusgacha darslar soni; nol bo‘lsa o‘chiq</summary>
+    </key>
+    <key name="session-state" type="s">
+      <default>' '</default>
+      <summary>Joriy taymer holati</summary>
+    </key>
+    <key name="sound-enabled" type="b">
+      <default>true</default>
+      <summary>Tanaffus boshlanishi va tugashida ovoz chiqarish</summary>
+    </key>
+    <key name="pause-on-lock" type="b">
+      <default>false</default>
+      <summary>Ekran qulflanganda taymerni vaqtincha pauzaga qo‘yish</summary>
+    </key>
+  </schema>
+</schemalist>

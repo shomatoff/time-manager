@@ -1,0 +1,92 @@
+.pomodoro-panel-box {
+    spacing: 6px;
+}
+
+.pomodoro-panel-label {
+    font-weight: 600;
+    font-feature-settings: 'tnum';
+}
+
+.pomodoro-panel-break {
+    color: #9be0d1;
+}
+
+.pomodoro-duration-value {
+    min-width: 52px;
+    text-align: center;
+}
+
+.pomodoro-step-button {
+    border-radius: 8px;
+    padding: 3px 9px;
+    margin: 0 5px;
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.pomodoro-step-button:hover {
+    background-color: rgba(255, 255, 255, 0.24);
+}
+
+.pomodoro-break-screen {
+    background-color: #101b2b;
+    background-image: url("./black-hole.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.pomodoro-break-dim {
+    background-color: rgba(0, 0, 0, 0.30);
+}
+
+.pomodoro-break-content {
+    spacing: 22px;
+    padding: 40px 56px;
+    background-color: rgba(8, 14, 24, 0.74);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 24px;
+}
+
+.pomodoro-break-heading {
+    color: #9bd8c7;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.pomodoro-break-time {
+    color: #ffffff;
+    font-size: 112px;
+    font-weight: 700;
+    font-feature-settings: 'tnum';
+}
+
+.pomodoro-break-caption {
+    color: #d4e2ec;
+    font-size: 22px;
+}
+
+.pomodoro-break-buttons {
+    spacing: 14px;
+    padding-top: 20px;
+}
+
+.pomodoro-break-button {
+    border-radius: 14px;
+    padding: 12px 24px;
+    color: #ffffff;
+    background-color: #31445b;
+    font-size: 17px;
+}
+
+.pomodoro-break-button:hover {
+    background-color: #425b77;
+}
+
+.pomodoro-primary-button {
+    background-color: #287e6e;
+}
+
+.pomodoro-primary-button:hover {
+    background-color: #339982;
+}

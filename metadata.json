@@ -1,0 +1,7 @@
+{
+  "uuid": "pomodoro-ubuntu@chainjas.local",
+  "name": "Pomodoro Ubuntu",
+  "description": "Soat yonidagi o‘qish taymeri va to‘liq ekran tanaffus eslatmasi",
+  "shell-version": ["46"],
+  "settings-schema": "org.gnome.shell.extensions.pomodoro-ubuntu"
+}
